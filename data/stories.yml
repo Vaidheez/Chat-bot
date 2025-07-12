@@ -1,0 +1,390 @@
+version: "3.1"
+
+stories:
+- story: greet and goodbye
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: ask about admission process
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: admission_process
+  - action: utter_admission_process
+  - intent: financial_advantages
+  - action: utter_financial_advantages
+  - intent: goodbye
+  - action: utter_goodbye
+  
+- story: ask about financial advantages
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: financial_advantages
+  - action: utter_financial_advantages
+
+- story: ask about partner programs
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: partner_programs_info
+  - action: utter_partner_programs_info
+  - intent: partner_universities
+  - action: utter_partner_universities
+  - intent: partner_program_benefits
+  - action: utter_partner_program_benefits
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: ask about post-graduation opportunities
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: job_after_degree
+  - action: utter_job_after_degree
+  - intent: gre_requirement
+  - action: utter_gre_requirement
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: campus life and facilities inquiry
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: campus_facilities
+  - action: utter_campus_facilities
+  - intent: student_life
+  - action: utter_student_life
+  - intent: faculty_information
+  - action: utter_faculty_information
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: academic information
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: pgp_definition
+  - action: utter_pgp_definition
+  - intent: accreditation_recognition
+  - action: utter_accreditation_recognition
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: application process
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: application_deadline
+  - action: utter_application_deadline
+  - intent: admission_process
+  - action: utter_admission_process
+  - intent: contact_info
+  - action: utter_contact_info
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: ask about financial aspects
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: cost_of_study
+  - action: utter_cost_of_study
+  - intent: financial_advantages
+  - action: utter_financial_advantages
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: ask about programs and destinations
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: programs_offered
+  - action: utter_programs_offered
+  - intent: study_destinations
+  - action: utter_study_destinations
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: ask about partner universities
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: partner_universities
+  - action: utter_partner_universities
+
+- story: ask about program benefits
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: partner_program_benefits
+  - action: utter_partner_program_benefits
+
+- story: ask about pgp definition
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: pgp_definition
+  - action: utter_pgp_definition
+
+- story: ask about job opportunities
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: job_after_degree
+  - action: utter_job_after_degree
+
+- story: ask about gre requirement
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: gre_requirement
+  - action: utter_gre_requirement
+
+- story: ask about cost of study
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: cost_of_study
+  - action: utter_cost_of_study
+
+- story: ask about contact information
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: contact_info
+  - action: utter_contact_info
+
+- story: direct question about admission process
+  steps:
+  - intent: admission_process
+  - action: utter_admission_process
+
+- story: direct question about financial advantages
+  steps:
+  - intent: financial_advantages
+  - action: utter_financial_advantages
+
+- story: direct question about partner programs
+  steps:
+  - intent: partner_programs_info
+  - action: utter_partner_programs_info
+
+- story: direct question about partner universities
+  steps:
+  - intent: partner_universities
+  - action: utter_partner_universities
+
+- story: direct question about program benefits
+  steps:
+  - intent: partner_program_benefits
+  - action: utter_partner_program_benefits
+
+- story: direct question about pgp definition
+  steps:
+  - intent: pgp_definition
+  - action: utter_pgp_definition
+
+- story: direct question about job opportunities
+  steps:
+  - intent: job_after_degree
+  - action: utter_job_after_degree
+
+- story: direct question about gre requirement
+  steps:
+  - intent: gre_requirement
+  - action: utter_gre_requirement
+
+- story: direct question about cost of study
+  steps:
+  - intent: cost_of_study
+  - action: utter_cost_of_study
+
+- story: direct question about contact information
+  steps:
+  - intent: contact_info
+  - action: utter_contact_info
+
+- story: out of scope question after greeting
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+
+- story: direct out of scope question
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+
+- story: out of scope then ask about admission
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+  - intent: admission_process
+  - action: utter_admission_process
+
+- story: admission then out of scope
+  steps:
+  - intent: admission_process
+  - action: utter_admission_process
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+
+- story: ask about study destinations
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: study_destinations
+  - action: utter_study_destinations
+
+- story: direct question about study destinations
+  steps:
+  - intent: study_destinations
+  - action: utter_study_destinations
+
+- story: ask about programs offered
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: programs_offered
+  - action: utter_programs_offered
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: direct question about programs offered
+  steps:
+  - intent: programs_offered
+  - action: utter_programs_offered
+
+- story: ask about tuition fees
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: tuition_fees
+  - action: utter_tuition_fees
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: direct question about tuition fees
+  steps:
+  - intent: tuition_fees
+  - action: utter_tuition_fees
+
+- story: ask about campus location
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: location_information
+  - action: utter_location_information
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: direct question about location
+  steps:
+  - intent: location_information
+  - action: utter_location_information
+
+- story: ask about eligibility
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: eligibility_criteria
+  - action: utter_eligibility_criteria
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: direct question about eligibility
+  steps:
+  - intent: eligibility_criteria
+  - action: utter_eligibility_criteria
+
+- story: ask about hostel accommodation
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: hostel_accommodation
+  - action: utter_hostel_accommodation
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: direct question about hostel
+  steps:
+  - intent: hostel_accommodation
+  - action: utter_hostel_accommodation
+
+- story: ask about placement statistics
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: placement_statistics
+  - action: utter_placement_statistics
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: direct question about placements
+  steps:
+  - intent: placement_statistics
+  - action: utter_placement_statistics
+
+- story: multiple questions about programs and fees
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: programs_offered
+  - action: utter_programs_offered
+  - intent: tuition_fees
+  - action: utter_tuition_fees
+  - intent: financial_advantages
+  - action: utter_financial_advantages
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: admission and accommodation questions
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: admission_process
+  - action: utter_admission_process
+  - intent: eligibility_criteria
+  - action: utter_eligibility_criteria
+  - intent: hostel_accommodation
+  - action: utter_hostel_accommodation
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: location and facilities questions
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: location_information
+  - action: utter_location_information
+  - intent: campus_facilities
+  - action: utter_campus_facilities
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: academic credentials and job prospects
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: accreditation_recognition
+  - action: utter_accreditation_recognition
+  - intent: placement_statistics
+  - action: utter_placement_statistics
+  - intent: job_after_degree
+  - action: utter_job_after_degree
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: out of scope handling
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+  - intent: goodbye
+  - action: utter_goodbye

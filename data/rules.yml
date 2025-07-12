@@ -1,0 +1,117 @@
+version: "3.1"
+
+rules:
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say hello whenever the user says hello
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Handle out of scope questions
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+
+- rule: Answer study destinations questions
+  steps:
+  - intent: study_destinations
+  - action: utter_study_destinations
+
+- rule: Answer academic excellence questions
+  steps:
+  - intent: academic_excellence
+  - action: utter_academic_excellence
+
+- rule: Answer research opportunities questions
+  steps:
+  - intent: research_opportunities
+  - action: utter_research_opportunities
+
+- rule: Answer industry connections questions
+  steps:
+  - intent: industry_connections
+  - action: utter_industry_connections
+
+- rule: Answer student exchange questions
+  steps:
+  - intent: student_exchange
+  - action: utter_student_exchange
+
+- rule: Answer international faculty questions
+  steps:
+  - intent: international_faculty
+  - action: utter_international_faculty
+
+- rule: Answer online learning questions
+  steps:
+  - intent: online_learning
+  - action: utter_online_learning
+
+- rule: Answer alumni network questions
+  steps:
+  - intent: alumni_network
+  - action: utter_alumni_network
+
+- rule: Answer scholarship details questions
+  steps:
+  - intent: scholarship_details
+  - action: utter_scholarship_details
+
+- rule: Answer internship opportunities questions
+  steps:
+  - intent: internship_opportunities
+  - action: utter_internship_opportunities
+
+- rule: Answer visa information questions
+  steps:
+  - intent: visa_information
+  - action: utter_visa_information
+
+- rule: Answer programs offered questions
+  steps:
+  - intent: programs_offered
+  - action: utter_programs_offered
+
+- rule: Answer campus facilities questions
+  steps:
+  - intent: campus_facilities
+  - action: utter_campus_facilities
+
+- rule: Answer accreditation recognition questions
+  steps:
+  - intent: accreditation_recognition
+  - action: utter_accreditation_recognition
+
+- rule: Answer tuition fees questions
+  steps:
+  - intent: tuition_fees
+  - action: utter_tuition_fees
+
+- rule: Answer application deadline questions
+  steps:
+  - intent: application_deadline
+  - action: utter_application_deadline
+
+- rule: Answer location information questions
+  steps:
+  - intent: location_information
+  - action: utter_location_information
+
+- rule: Answer eligibility criteria questions
+  steps:
+  - intent: eligibility_criteria
+  - action: utter_eligibility_criteria
+
+- rule: Answer hostel accommodation questions
+  steps:
+  - intent: hostel_accommodation
+  - action: utter_hostel_accommodation
+
+- rule: Answer placement statistics questions
+  steps:
+  - intent: placement_statistics
+  - action: utter_placement_statistics

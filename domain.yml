@@ -1,0 +1,170 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - admission_process
+  - financial_advantages
+  - partner_programs_info
+  - partner_universities
+  - partner_program_benefits
+  - pgp_definition
+  - job_after_degree
+  - gre_requirement
+  - cost_of_study
+  - contact_info
+  - out_of_scope
+  - study_destinations
+  - academic_excellence
+  - research_opportunities
+  - industry_connections
+  - student_exchange
+  - international_faculty
+  - online_learning
+  - alumni_network
+  - scholarship_details
+  - internship_opportunities
+  - visa_information
+  - student_life
+  - faculty_information
+  - accreditation_recognition
+  - application_deadline
+  - programs_offered
+  - tuition_fees
+  - location_information
+  - eligibility_criteria
+  - hostel_accommodation
+  - placement_statistics
+  - faq/dress_code
+  - faq/wifi_availability
+  - faq/food_options
+  - campus_facilities
+  
+responses:
+  utter_greet:
+    - text: "Hello! How can I help you with information about VIT-Bangalore's international programs?"
+    - text: "Hi there! Welcome to VIT-Bangalore's assistance service. How may I help you today?"
+    - text: "Greetings! I'm here to provide information about VIT-Bangalore's international programs. What would you like to know?"
+
+  utter_goodbye:
+    - text: "Goodbye! Feel free to reach out if you have more questions about VIT-Bangalore."
+    - text: "Thank you for your interest in VIT-Bangalore. Have a great day!"
+    - text: "It was nice assisting you. Feel free to contact us again with any questions about our international programs."
+
+  utter_admission_process:
+    - text: "Students who maintain their academic performance at VIT-Bangalore are admitted through partner university agreements with US universities. Our partnership arrangements ensure a smooth admission process with minimal paperwork and higher acceptance rates compared to direct applications."
+
+  utter_financial_advantages:
+    - text: "There are several financial advantages to our program: 1) Pay only one year of tuition fees in the USA, 2) Save 35% – 50% of the cost of studies in the USA, 3) Secure special scholarships offered to the students of VIT-Bangalore. Additionally, students can apply for education loans with favorable terms through our banking partners."
+
+  utter_partner_programs_info:
+    - text: "VIT-Bangalore's PGPs are developed in partnership with international institutions. The students spend one year at VIT-Bangalore followed by a year at partner universities in the USA, Canada, UK or other countries and get their masters degree. This model combines the best of Indian and international education systems while optimizing costs and ensuring quality education."
+
+  utter_partner_universities:
+    - text: "Currently, you can select from partner universities including Binghamton University, Rochester Institute of Technology, University of Maryland, University of Michigan Dearborn, Cal Poly, Kent State University, Penn State Great Valley, Purdue University, Rowan University, SUNY Polytechnic Institute, University of Massachusetts Dartmouth, University of Baltimore, Capitol Technology University, University of Missouri, Saint Peters University, New York Institute of Technology (Vancouver, Canada), and City University of London (UK). We're also in discussions with several other prestigious universities to expand our network."
+
+  utter_partner_program_benefits:
+    - text: "The benefits include: starting PG studies at VIT-Bangalore, getting transfer credits, reducing education costs through scholarships, secure international admission through partnerships, attend joint classes, experiential education, internship opportunities, STEM designation allowing up to 3 years of work after graduation, CPT during studies, and OPT after graduation. Our alumni network also provides valuable connections for career advancement."
+
+  utter_pgp_definition:
+    - text: "Post Graduate Programs (PGP) are internationally accepted academic qualifications that prepare students for higher studies or employment in specific areas of science or technology. At VIT-Bangalore, our PGPs are designed in collaboration with international universities to ensure global relevance and recognition."
+
+  utter_job_after_degree:
+    - text: "Yes. VIT-Bangalore's partner programs are designated as STEM programs and the graduates are permitted to work for up to three years in the USA after graduation under the Optional Practical Training (OPT) extension. Our career services department also assists with resume building, interview preparation, and job search strategies."
+
+  utter_gre_requirement:
+    - text: "GRE Waiver is based on Partner Universities agreement. Many of our partner universities offer GRE waivers to VIT-Bangalore students based on their academic performance during the first year at VIT-Bangalore. Some universities may still require GRE scores, but with lower minimum requirements compared to direct applications."
+
+  utter_cost_of_study:
+    - text: "The normal tuition fees in the USA would vary from $20,000 to $40,000. VIT-Bangalore's partnership arrangements help you get a fee reduction ranging from 25% to 35% of the tuition fees. The living expenses may vary from a minimum of $8,000 to as much as $20,000 depending on the location and lifestyle. Our financial advisors can provide personalized cost estimations based on your chosen university and program."
+
+  utter_contact_info:
+    - text: "For more questions, please contact us at: study@vitbangalore.in or call us at: +91 63629 06969. Our campus is located at VIT-Bangalore, Near Muddenahalli, Bangalore-Karnataka Highway, Bengaluru, Karnataka 562157."
+
+  utter_out_of_scope:
+    - text: "I'm currently trained to answer questions specifically about VIT-Bangalore's international programs. I'm not able to answer that question at the moment, but I'm continuously learning to help you better. For now, please feel free to contact us with any specific questions at study@vitbangalore.in or call at +91 63629 06969."
+    - text: "That's outside my current knowledge area. I'm specialized in providing information about VIT-Bangalore's international programs. For any questions about our programs, I'm happy to help! For other inquiries, please contact us at study@vitbangalore.in or +91 63629 06969."
+    - text: "I apologize, but I'm specifically designed to assist with VIT-Bangalore's international programs. I don't have information on that topic, but our team would be happy to assist you with any questions about our educational offerings. Please reach out to us at study@vitbangalore.in or call +91 63629 06969."
+
+  utter_default:
+    - text: "I'm not sure I understand your question. Could you rephrase that? I'm here to help with information about VIT-Bangalore's international programs. For other inquiries, please contact us at study@vitbangalore.in or call +91 63629 06969."
+    - text: "I didn't quite catch that. I'm here to provide information about VIT-Bangalore's international programs. Could you please clarify your question? If you need further assistance, feel free to contact us directly at study@vitbangalore.in or +91 63629 06969."
+
+  utter_study_destinations:
+    - text: "Through VIT-Bangalore's international programs, you can study in the United States, Canada, and the United Kingdom. Most of our partner universities are in the USA, with additional options in Canada (New York Institute of Technology in Vancouver) and the UK (City University of London). We're also exploring partnerships in other countries to expand your options."
+
+  utter_academic_excellence:
+    - text: "VIT-Bangalore is committed to academic excellence with a rigorous curriculum designed in collaboration with industry experts and international university partners. Our institution is ranked among the top private universities in India, with a NAAC 'A++' accreditation reflecting our high academic standards. Our programs blend theoretical knowledge with practical applications, focusing on emerging technologies and industry-relevant skills. The flexible credit system allows students to tailor their learning path. Our faculty includes distinguished professors with international exposure and research experience. The academic environment is enriched by modern teaching methodologies including project-based learning, case studies, and flipped classrooms. VIT-Bangalore's international partnerships ensure that our academic standards align with global benchmarks."
+
+  utter_research_opportunities:
+    - text: "VIT-Bangalore offers extensive research opportunities across various disciplines. Our institution has dedicated research centers focusing on emerging technologies like AI, IoT, Machine Learning, Clean Energy, Biomedical Engineering, and more. Students can participate in faculty-led research projects starting from their first year. The university allocates significant funding for research infrastructure and projects. Our students regularly publish in prestigious international journals and present at conferences. We have a dedicated Research and Development cell that facilitates collaboration with industry partners and international universities. Special research scholarship programs are available for deserving students. Our annual research symposium provides a platform for students to showcase their work to industry experts and academics from around the world."
+
+  utter_industry_connections:
+    - text: "VIT-Bangalore maintains strong industry connections to enhance student experiences and employability. We have formal partnerships with over 200 companies spanning technology, manufacturing, consulting, finance, and healthcare sectors. Our industry advisory board helps shape curriculum to meet current market demands. Regular industry-sponsored hackathons, technical workshops, and guest lectures provide students with exposure to real-world challenges. Our Corporate Relations Cell facilitates internships and placement opportunities with leading global companies. Industry-sponsored labs on campus allow students to work with cutting-edge technologies. Joint research projects with industry partners provide hands-on experience in solving real business problems. Many of our partner universities in the US also have strong industry connections in their regions, creating a global network of opportunities for our students."
+
+  utter_student_exchange:
+    - text: "VIT-Bangalore offers diverse student exchange opportunities beyond our main international partner programs. Short-term exchange programs ranging from 2 weeks to a semester are available with partner universities in the US, UK, Germany, France, South Korea, Japan, and Australia. These exchanges provide cultural immersion and academic credit transfer. Our Global Summer School program allows students to spend 4-8 weeks at partner universities. We also host international students on our campus, creating a multicultural learning environment. Exchange students benefit from cultural orientation programs, buddy systems, and specialized support services. Selection for exchange programs is based on academic performance, language proficiency, and motivation. Financial support and scholarships are available for qualifying students participating in exchange programs. These experiences significantly enhance students' global perspective and cross-cultural communication skills."
+
+  utter_international_faculty:
+    - text: "VIT-Bangalore has a diverse international faculty contributing to our global educational environment. Approximately 15% of our faculty members are international, representing over 20 countries including the US, UK, Germany, France, Canada, Australia, and Japan. Additionally, we host 30-40 visiting professors from partner universities each year who conduct specialized modules and workshops. Our faculty exchange programs allow our professors to teach at partner universities, bringing back global perspectives. Joint teaching initiatives connect classrooms across continents through video conferencing and collaborative projects. Our international faculty brings diverse teaching methodologies and cultural perspectives to the classroom. Many have extensive industry experience in their home countries, providing students with global industry insights. This multicultural teaching environment prepares students for the global workforce by exposing them to different approaches and perspectives."
+
+  utter_online_learning:
+    - text: "VIT-Bangalore offers comprehensive online learning options integrated with traditional education. Our Learning Management System provides access to course materials, recorded lectures, and interactive resources 24/7. Blended learning approaches combine classroom teaching with online components. We utilize advanced technologies including virtual labs, simulation software, and AI-based learning tools. Students can access digital resources from our library including e-books, journals, and research databases. Some elective courses can be taken entirely online, providing flexibility in learning. Our virtual classroom platform enables interactive sessions with professors from partner universities. Online discussion forums foster collaboration among students across programs and countries. We provide special training to faculty for effective online teaching methodologies. Our digital infrastructure ensures seamless connectivity and access to learning resources. During the pandemic, we successfully transitioned to fully online education, demonstrating our robust digital capabilities."
+
+  utter_alumni_network:
+    - text: "VIT-Bangalore's alumni network spans across the globe, comprising over 15,000 graduates making significant contributions in various fields. Our alumni hold leadership positions in Fortune 500 companies, innovative startups, research institutions, and academia worldwide. The VIT Alumni Association conducts regular networking events, both online and in-person, across major cities globally. Alumni frequently return to campus as guest lecturers, mentors, and recruiters. Our mentor-mentee program connects current students with alumni working in their areas of interest. The alumni portal facilitates networking, job postings, and knowledge sharing. Alumni contribute to the university through scholarships, infrastructure development, and curriculum feedback. Our International Partner Program alumni form a special network with strong connections in their respective countries, particularly in the US. Annual alumni reunions celebrate their achievements and strengthen the VIT community. The success of our alumni in global markets significantly enhances the value of VIT-Bangalore degree internationally."
+
+  utter_scholarship_details:
+    - text: "VIT-Bangalore offers a range of scholarships to support talented students. Merit scholarships cover 10-50% of tuition fees based on academic performance, with the highest performers receiving up to 50% waiver. Special scholarships are available exclusively for students in international partner programs, including guaranteed 25% tuition reduction at many partner universities. Need-based financial aid is available for deserving students with demonstrated financial constraints. Sports and cultural excellence scholarships support students with exceptional talents. Women in STEM scholarships encourage female students in science and technology fields. Research scholarships provide stipends for students engaged in specific research projects. Corporate-sponsored scholarships from our industry partners target students in specific disciplines. International students can access special scholarships covering up to 25% of fees. Scholarship applications are reviewed by a dedicated committee, with decisions based on academic records, entrance exam performance, and personal interviews. Most scholarships are renewable annually, subject to maintaining required academic standing."
+
+  utter_internship_opportunities:
+    - text: "Internships are a crucial part of VIT-Bangalore's educational framework. All undergraduate and postgraduate programs include mandatory internship components, typically during summer breaks. Our Corporate Relations Cell facilitates internship placements with over 200 partner companies across technology, manufacturing, consulting, finance, and healthcare sectors. Many students secure internships with leading companies including Google, Microsoft, Amazon, IBM, Deloitte, and Goldman Sachs. International internships are available through our global partners in the US, Europe, and Asia. Virtual internships with global companies became prevalent during the pandemic and continue to be an option. Students in international partner programs often have opportunities for internships in their destination countries. The average internship duration ranges from 2-6 months, with many leading to pre-placement offers. Internship performance is evaluated through faculty supervision and company feedback, contributing to academic credits. Industry-sponsored projects provide additional practical experience throughout the academic year. Our annual internship fair brings 100+ companies to campus, offering a wide range of opportunities."
+
+  utter_visa_information:
+    - text: "VIT-Bangalore provides comprehensive support for the student visa process. Our International Relations Office conducts specialized visa workshops for students enrolled in international partner programs. We provide detailed documentation guidance, including financial requirements, statement of purpose preparation, and form filling. For US-bound students, we organize mock visa interviews and provide specific training for F1 visa requirements. Our partnership agreements with universities often simplify the visa process through expedited procedures. The visa success rate for VIT-Bangalore students is over 95%, significantly higher than the average. Students should begin the visa application process 3-4 months before their intended travel date. Required financial documentation typically includes bank statements showing tuition and living expenses for one year. The International Relations Office maintains regular communication with consulates and embassies to stay updated on changing visa requirements. Post-visa approval, we conduct pre-departure orientation covering cultural adjustment, housing, transportation, and emergency protocols in the destination country. Our support continues even after students arrive at partner universities through dedicated liaison officers."
+
+  utter_campus_facilities:
+    - text: "VIT-Bangalore campus offers state-of-the-art facilities including modern classrooms with multimedia equipment, well-equipped laboratories, extensive library resources, high-speed internet connectivity throughout campus, comfortable accommodation options, dining facilities with diverse meal choices, sports complexes, recreational areas, and dedicated spaces for student activities and clubs."
+
+  utter_student_life:
+    - text: "Student life at VIT-Bangalore is vibrant and engaging with numerous clubs covering technical interests, arts, sports, and social initiatives. The campus hosts regular cultural festivals, technical symposiums, and sports competitions. Students participate in national and international competitions representing VIT. The university encourages student-led initiatives and provides mentoring support for extracurricular activities."
+
+  utter_faculty_information:
+    - text: "VIT-Bangalore has a distinguished faculty comprising experienced professors with PhDs from prestigious universities worldwide. Many faculty members have industry experience and maintain active research portfolios. The student-to-faculty ratio ensures personalized attention, and faculty members regularly participate in professional development to stay updated with the latest in their fields."
+
+  utter_accreditation_recognition:
+    - text: "VIT-Bangalore holds NAAC A++ accreditation, recognizing its excellence in higher education. Our programs are approved by relevant regulatory bodies including AICTE and UGC. The university has received various awards for academic excellence, innovation, and infrastructure. Our international partner programs ensure global recognition of the qualifications earned by students."
+
+  utter_application_deadline:
+    - text: "Applications for the international partner programs typically open in January and close by April. Early applications are encouraged as selections are made on a rolling basis. For specific programs, there might be multiple application windows. Please check our website for the most current deadlines or contact our admissions office at study@vitbangalore.in for program-specific information."
+
+  utter_programs_offered:
+    - text: "VIT-Bangalore offers international partner programs in various fields including Computer Science (with specializations in AI, ML, Cybersecurity, Big Data), Data Science, Information Technology, and Business Analytics. Each program is designed in collaboration with our international partners to ensure global relevance. All programs feature industry-relevant curriculum with options for specialization in emerging technologies."
+
+  utter_tuition_fees:
+    - text: "The tuition fees at VIT-Bangalore for the first year (spent in India) range from INR 3.5 lakhs to 4.5 lakhs per annum, depending on the program selected. For the second year spent at partner universities abroad, the fees benefit from our 25%-35% reduction arrangements, bringing costs down significantly compared to direct admission. For example, a typical US university program costing $40,000 would be available at approximately $26,000-$30,000 through our partnership. Detailed fee structures for specific programs can be obtained by contacting our admissions office at study@vitbangalore.in or calling +91 63629 06969."
+
+  utter_location_information:
+  - text: "VIT-Bangalore is located in Whitefield, a prominent technology hub in Bengaluru. The exact address is VIT-Bangalore, 2nd Floor, Silver Soft IT Park, No. 23, Road No. 7, EPIP Zone, Whitefield, Bengaluru, Karnataka 560066. Our campus is situated in a well-connected area with excellent access to public transportation. It is approximately 25 km from Bengaluru city center and about 40 km from Kempegowda International Airport. The campus can be reached by taxi, bus, or metro connectivity via Whitefield station."
+
+  utter_eligibility_criteria:
+    - text: "For international partner programs specifically, strong academic performance during the first year at VIT-Bangalore is essential for guaranteed admission to partner universities. Language proficiency in English (IELTS/TOEFL) may be required for international study, though many partner universities offer conditional acceptance pending completion of language courses if needed. Selection is based on academic performance, entrance test scores, and personal interviews."
+
+  utter_hostel_accommodation:
+  - text: "There is no on-campus hostel facility available at VIT-Bangalore as of now. Students are advised to arrange accommodation in nearby paying guest (PG) facilities or rental apartments in the Whitefield area. The locality offers a wide range of PG options with amenities such as Wi-Fi, food services, laundry, and security. The university can assist students with information about recommended PGs and housing options upon request. It is advisable to finalize accommodation before the commencement of the academic session."
+
+  utter_placement_statistics:
+    - text: "VIT-Bangalore boasts impressive placement statistics with over 90% placement rate for eligible students. Our international partner program graduates have exceptional opportunities, with average starting salaries ranging from $70,000 to $95,000 in the US market. Top recruiters include global technology giants like Google, Microsoft, Amazon, IBM, Intel, and financial institutions such as Goldman Sachs and JP Morgan. The highest package recorded for our international program graduates was $125,000. Our dedicated placement cell conducts year-round training including mock interviews, resume building workshops, and industry interaction sessions. Many partner universities have their own strong placement networks which our students can access during their second year of study abroad. Multiple job offers are common for high-performing students, and our alumni network actively supports recent graduates in their job search."
+
+  utter_faq/dress_code:
+    - text: "VIT-Bangalore maintains a business casual dress code for regular class days. Formal attire is required during presentations, seminars, and industry visits. Lab sessions have specific dress requirements for safety. There is no uniform requirement, but we encourage professional attire that prepares students for the corporate environment."
+
+  utter_faq/wifi_availability:
+  - text: "There is no on-campus hostel facility available at VIT-Bangalore as of now. Students are advised to arrange accommodation in nearby paying guest (PG) facilities or rental apartments in the Whitefield area. The locality offers a wide range of PG options with amenities such as Wi-Fi, food services, laundry, and security. The university can assist students with information about recommended PGs and housing options upon request. It is advisable to finalize accommodation before the commencement of the academic session."
+
+  utter_faq/food_options:
+  - text: "There is no on-campus hostel facility available at VIT-Bangalore as of now. Students are advised to arrange accommodation in nearby paying guest (PG) facilities or rental apartments in the Whitefield area. The locality offers a wide range of PG options with amenities such as Wi-Fi, food services, laundry, and security. The university can assist students with information about recommended PGs and housing options upon request. It is advisable to finalize accommodation before the commencement of the academic session."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,735 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey
+    - good morning
+    - good evening
+    - good afternoon
+    - howdy
+    - greetings
+    - nice to meet you
+    - pleasure to meet you
+    - namaste
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - see you around
+    - catch you later
+    - until next time
+    - take care
+    - farewell
+    - have a nice day
+    - talk to you soon
+    - have a good one
+
+- intent: admission_process
+  examples: |
+    - How will I get admission to the Masters program in the USA?
+    - What's the process for getting into US Masters programs?
+    - How can I get into a Masters program in the USA?
+    - What's required for US university admission?
+    - Tell me about admission to US universities
+    - How does VIT-Bangalore help with US admissions?
+    - What steps do I need to follow for admission?
+    - Is there an entrance exam for the program?
+    - Do I need to apply separately to the US university?
+    - What's the admission timeline?
+    - Are there any prerequisites for admission?
+    - What documents are needed for admission?
+    - How competitive is the admission process?
+    - What's the selection criteria for the program?
+    - Do you have entrance exams for admission?
+    - How many students get selected each year?
+
+- intent: financial_advantages
+  examples: |
+    - What are the financial advantages of going to a Masters program through VIT-Bangalore?
+    - How much money can I save by going through VIT-Bangalore?
+    - What are the cost benefits of VIT's program?
+    - How is VIT-Bangalore financially beneficial for US studies?
+    - Tell me about the tuition fee savings
+    - What financial benefits do I get?
+    - How does VIT reduce the cost of US education?
+    - What scholarships are available?
+    - Is there any financial aid?
+    - How much can I save compared to direct US admission?
+    - Are there any hidden costs I should know about?
+    - What's the ROI of this program?
+    - Do you offer any fee waivers?
+    - Tell me about education loans for the program
+    - Are there any special scholarships for merit students?
+    - What's the average scholarship amount?
+
+- intent: partner_programs_info
+  examples: |
+    - What are the International Partner Programs?
+    - Tell me about the partnership programs
+    - How do international partner programs work?
+    - Explain the international partnership system
+    - What are partner programs at VIT-Bangalore?
+    - How long have these partnerships existed?
+    - Who manages these partner programs?
+    - How successful are these partner programs?
+    - What's the history of these international partnerships?
+    - How are the partner programs structured?
+    - What makes VIT's partner programs unique?
+    - Do other Indian universities have similar programs?
+
+- intent: partner_universities
+  examples: |
+    - Which partner university can I select for my study in the USA?
+    - What are the partner universities in the USA?
+    - Which US universities can I go to?
+    - What are my university options in the US?
+    - List the partner universities
+    - What US universities have partnerships with VIT-Bangalore?
+    - Are there any Ivy League partners?
+    - What about universities in Canada?
+    - Do you have partnerships with European universities?
+    - Which university partnerships are most popular?
+    - Are there new partner universities being added?
+    - Which partner university has the best placement record?
+    - Can I switch between partner universities?
+    - Are some partner universities better for specific majors?
+
+- intent: partner_program_benefits
+  examples: |
+    - What are the benefits of International Partner Post Graduate Programs?
+    - What advantages do I get from the partner programs?
+    - Why should I choose the international partner program?
+    - What are the perks of international partner programs?
+    - How will the partner program benefit me?
+    - What's special about the partner programs?
+    - Do partner programs help with job prospects?
+    - Will partner programs enhance my resume?
+    - How does the industry view these partner programs?
+    - What networking opportunities come with partner programs?
+    - Are there alumni connections through partner programs?
+    - Do partner programs offer any internship advantages?
+    - How do partner programs compare to direct admissions?
+
+- intent: pgp_definition
+  examples: |
+    - What are the Post Graduate Programs?
+    - Define Post Graduate Programs
+    - What does PGP mean?
+    - Tell me about the PGP
+    - What are PGPs at VIT-Bangalore?
+    - How are PGPs different from regular Masters?
+    - What's the structure of a PGP?
+    - Are PGPs internationally recognized?
+    - How long have PGPs existed?
+    - Who created the PGP concept at VIT?
+    - What's the duration of a typical PGP?
+    - Can I do a PGP part-time?
+
+- intent: job_after_degree
+  examples: |
+    - Can I take a job after getting a degree in the USA?
+    - Am I allowed to work in the US after graduation?
+    - Can I work in the US after my degree?
+    - What are my work opportunities after US graduation?
+    - Can I get a job in the US after studying there?
+    - What are the visa requirements for working after graduation?
+    - How long can I stay in the US after graduating?
+    - What's the OPT period for these programs?
+    - Do partner universities help with job placement?
+    - What's the employment rate for graduates?
+    - What kind of jobs do graduates typically get?
+    - What's the average starting salary for graduates?
+    - Do companies recruit directly from partner universities?
+
+- intent: gre_requirement
+  examples: |
+    - Do I have to take GRE to go to USA?
+    - Is GRE mandatory?
+    - Can I get admission without GRE?
+    - Is there a GRE waiver?
+    - Do I need to write GRE for US admission?
+    - What's the minimum GRE score required?
+    - Do all partner universities waive GRE?
+    - Which universities require GRE?
+    - What about TOEFL or IELTS?
+    - Is there any English proficiency test required?
+    - Can high academic performance substitute for GRE?
+    - What's the typical GRE score of admitted students?
+
+- intent: cost_of_study
+  examples: |
+    - How much would it cost to study in the USA?
+    - What are the expenses for US education?
+    - How much money do I need for US study?
+    - Tell me about the cost of studying in America
+    - What's the tuition fee in the US?
+    - How much are living expenses in the US?
+    - What's the total investment required?
+    - How does the cost compare to other programs?
+    - Is it cheaper than directly applying to US universities?
+    - What are the fees for VIT-Bangalore portion?
+    - What are the average monthly expenses in the US?
+    - Do I need to show financial documents for visa?
+    - How much bank balance is required for visa?
+    - Are there payment plans available?
+
+- intent: contact_info
+  examples: |
+    - I have other questions to ask. Where can I get the answer?
+    - How can I contact for more information?
+    - Who should I contact for queries?
+    - How do I get in touch with the admission office?
+    - What's the contact information?
+    - How can I reach out with more questions?
+    - What's the email address to contact?
+    - Is there a phone number for inquiries?
+    - Where is the admission office located?
+    - Can I visit campus for more information?
+    - Do you have a website with more details?
+    - Are there any information sessions scheduled?
+    - Is there someone I can talk to about my specific situation?
+    - How quickly do you respond to inquiries?
+
+- intent: out_of_scope
+  examples: |
+    - What is the time?
+    - What time is it?
+    - In which direction does the sun rise?
+    - How old are you?
+    - What's the weather like today?
+    - Can you tell me a joke?
+    - Who is the president?
+    - How far is the moon?
+    - What's the capital of France?
+    - How do I cook pasta?
+    - Tell me about artificial intelligence
+    - What's the meaning of life?
+    - How tall is Mount Everest?
+    - Who invented the telephone?
+    - What's the population of India?
+    - How do cars work?
+    - What's the best movie of all time?
+    - Who won the last World Cup?
+    - Can you recommend a good restaurant?
+    - What stocks should I invest in?
+    - How do I lose weight?
+    - Tell me about the history of China
+    - What's the best smartphone to buy?
+    - How do I fix my computer?
+    - What's the formula for calculating area?
+    - Tell me a bedtime story
+    - Who will win the next election?
+    - How many planets are in the solar system?
+    - What's the fastest animal on Earth?
+
+- intent: study_destinations
+  examples: |
+    - What are countries we can go?
+    - Which countries can I study in?
+    - What countries are available?
+    - Where can I go to study?
+    - Which countries have partner universities?
+    - Tell me about study destinations
+    - What are the available countries?
+    - Which countries are part of the program?
+    - What countries can students go to?
+    - Where are the partner universities located?
+    - Which nations have your partner universities?
+    - What international locations do you offer?
+    - Where can I complete my second year?
+    - Which countries host VIT-Bangalore partner universities?
+
+- intent: academic_excellence
+  examples: |
+    - Tell me about VIT's academic excellence
+    - What makes VIT-Bangalore academically strong?
+    - How good is the academic quality at VIT?
+    - What's VIT's academic reputation?
+    - Are VIT programs academically rigorous?
+    - What's the standard of education at VIT-Bangalore?
+    - How does VIT ensure academic quality?
+    - Tell me about VIT's teaching methodology
+    - What's special about VIT's academics?
+    - How does VIT rank academically?
+    - Is VIT-Bangalore known for academic excellence?
+    - What academic achievements does VIT have?
+    - How does VIT maintain academic standards?
+    - What are VIT's academic credentials?
+    - Tell me about the quality of education at VIT
+
+- intent: research_opportunities
+  examples: |
+    - What research opportunities are available?
+    - Can students participate in research?
+    - Tell me about research at VIT-Bangalore
+    - What research areas does VIT focus on?
+    - Are there research labs at VIT?
+    - Can I do research during my studies?
+    - What research facilities are available?
+    - How is research integrated into programs?
+    - What research projects can students join?
+    - Are there research grants or funding?
+    - Does VIT collaborate with industry for research?
+    - How active is the research community at VIT?
+    - What's VIT's research output like?
+    - Tell me about research publications from VIT
+    - Can international students participate in research?
+
+- intent: industry_connections
+  examples: |
+    - What industry connections does VIT have?
+    - Tell me about industry partnerships
+    - How does VIT collaborate with companies?
+    - What companies recruit from VIT?
+    - Are there industry-sponsored projects?
+    - Does VIT have ties with tech companies?
+    - What industry exposure will I get?
+    - How does VIT connect students with industry?
+    - Are there industry visits or internships?
+    - Tell me about corporate relationships
+    - Which companies are associated with VIT?
+    - How strong are VIT's industry links?
+    - What industry collaborations does VIT have?
+    - Tell me about industry partnerships at VIT
+    - How does industry influence the curriculum?
+
+- intent: student_exchange
+  examples: |
+    - Are there student exchange programs?
+    - Can I do an exchange semester?
+    - Tell me about exchange opportunities
+    - How do student exchanges work?
+    - Are there short-term exchange programs?
+    - Can I study in multiple countries?
+    - Do you have semester exchange options?
+    - Tell me about international exchanges
+    - How can I participate in student exchange?
+    - What's the exchange student selection process?
+    - Are exchanges available to all students?
+    - Which countries offer exchange programs?
+    - How long are the exchange programs?
+    - Tell me about cultural exchange opportunities
+    - Do partner universities offer exchange programs?
+
+- intent: international_faculty
+  examples: |
+    - Do you have international faculty?
+    - Are there professors from abroad?
+    - Tell me about international teachers
+    - Do foreign professors teach at VIT?
+    - Are there visiting professors from partner universities?
+    - What's the international faculty ratio?
+    - How diverse is the faculty?
+    - Do you have faculty exchange programs?
+    - Tell me about global faculty
+    - Do professors from partner universities teach at VIT?
+    - Are courses taught by international experts?
+    - How many countries are represented in faculty?
+    - What's the international exposure in teaching?
+    - Tell me about faculty diversity
+    - Do you have joint teaching with foreign faculty?
+
+- intent: online_learning
+  examples: |
+    - Is there online learning available?
+    - Can I take courses online?
+    - Tell me about digital learning options
+    - Do you offer remote study options?
+    - Are there virtual classroom facilities?
+    - Can I attend some classes online?
+    - What online resources are available?
+    - Tell me about e-learning at VIT
+    - Do you have a learning management system?
+    - Can I access lectures online?
+    - What digital infrastructure is available?
+    - Tell me about VIT's online capabilities
+    - Is there a mix of online and offline learning?
+    - What technology is used for online classes?
+    - Do partner universities offer online courses?
+
+- intent: alumni_network
+  examples: |
+    - Tell me about the alumni network
+    - How strong is VIT's alumni community?
+    - What do VIT alumni do?
+    - Where are VIT graduates working?
+    - Are there alumni events?
+    - How does VIT engage with alumni?
+    - Can students connect with alumni?
+    - Tell me about notable alumni
+    - What's the global alumni presence?
+    - How many alumni are there?
+    - What support do alumni provide?
+    - Are there alumni mentorship programs?
+    - How do alumni contribute to VIT?
+    - Tell me about alumni success stories
+    - What's the alumni association like?
+
+- intent: scholarship_details
+  examples: |
+    - Tell me about scholarships
+    - What scholarships are available?
+    - Are there merit scholarships?
+    - How can I get a scholarship?
+    - What's the scholarship selection process?
+    - Tell me about financial aid options
+    - Are there partial scholarships?
+    - What's the highest scholarship amount?
+    - Do partner universities offer scholarships?
+    - Are there specific scholarships for international programs?
+    - How competitive are the scholarships?
+    - When should I apply for scholarships?
+    - Tell me about scholarship requirements
+    - Are scholarships renewable each year?
+    - What percentage of students get scholarships?
+
+- intent: internship_opportunities
+  examples: |
+    - Tell me about internship opportunities
+    - Are internships available?
+    - How do students get internships?
+    - Are internships part of the curriculum?
+    - Do you have mandatory internships?
+    - What companies offer internships?
+    - Are there international internships?
+    - How long are the internships?
+    - Are internships paid?
+    - When do internships take place?
+    - How does VIT support internship placement?
+    - Tell me about industry training
+    - What practical experience do students get?
+    - Are there summer internships?
+    - Can I do an internship at partner universities?
+
+- intent: visa_information
+  examples: |
+    - Tell me about visa process
+    - How do I get a student visa?
+    - What's required for US student visa?
+    - Do you help with visa applications?
+    - What's the visa success rate?
+    - Tell me about visa documentation
+    - When should I apply for visa?
+    - What's the visa interview process?
+    - How long does visa processing take?
+    - What financial documents are needed for visa?
+    - Are there visa challenges I should know about?
+    - What visa support does VIT provide?
+    - Tell me about F1 visa requirements
+    - How do I prepare for visa interview?
+    - What's the visa application timeline?
+
+- intent: programs_offered
+  examples: |
+    - What programs do you offer?
+    - List the programs available
+    - What courses can I study at VIT-Bangalore?
+    - Tell me about the programs at VIT
+    - What are the available courses?
+    - Which programs can I apply for?
+    - What majors do you have?
+    - Give me a list of programs
+    - Show me the available courses
+    - What specializations are offered?
+    - Which degrees can I pursue at VIT?
+    - Tell me about your course offerings
+    - What academic programs are available?
+    - What are the program options?
+    - Can you list all available programs?
+    - What fields of study are available?
+    - What subjects can I study at VIT?
+    - Which branches are offered in VIT-Bangalore?
+    - What are the program offerings?
+    - Show me program list
+
+- intent: campus_facilities
+  examples: |
+    - What facilities do you have on campus?
+    - Tell me about campus infrastructure
+    - What amenities are available on campus?
+    - Describe the campus facilities
+    - What's available on VIT-Bangalore campus?
+    - Tell me about the labs and classrooms
+    - Do you have sports facilities?
+    - What about the library?
+    - Is there student accommodation available?
+    - What are the dining options on campus?
+    - Tell me about hostel facilities
+    - Do you have WiFi on campus?
+    - What research facilities are available?
+    - Is there a gym on campus?
+    - What recreational facilities are available?
+    - Do you have cafeterias?
+    - What about medical facilities?
+    - Are there study rooms available?
+    - What technology is available in classrooms?
+    - Tell me about the campus grounds
+
+- intent: accreditation_recognition
+  examples: |
+    - Is VIT-Bangalore accredited?
+    - What accreditations does VIT have?
+    - Tell me about VIT's recognition status
+    - Is the degree internationally recognized?
+    - What certifications does VIT-Bangalore have?
+    - Is VIT approved by UGC?
+    - Does VIT have AICTE approval?
+    - What's VIT's NAAC grade?
+    - Are VIT degrees valid internationally?
+    - What's the recognition status of VIT-Bangalore?
+    - Is VIT a recognized university?
+    - What ranking does VIT hold?
+    - Is VIT a good university?
+    - How is VIT ranked nationally?
+    - Tell me about VIT's credentials
+    - Is VIT among top universities?
+    - What makes VIT a credible institution?
+    - Are VIT qualifications respected in industry?
+    - What education bodies recognize VIT?
+    - Is VIT globally recognized?
+
+- intent: tuition_fees
+  examples: |
+    - What are the tuition fees?
+    - How much does it cost to study at VIT-Bangalore?
+    - Tell me about the fee structure
+    - What's the tuition for VIT campus?
+    - How much are the fees for first year?
+    - What are the fees for VIT-Bangalore programs?
+    - How much do I need to pay for tuition?
+    - What's the cost of education at VIT?
+    - Tell me about semester fees
+    - What are the annual fees?
+    - How much does the program cost in VIT?
+    - What's the fee for international programs?
+    - What are the fees for Indian students?
+    - How are the fees structured?
+    - Do I need to pay the fees upfront?
+    - What payment options are available for fees?
+    - Are there installment options for tuition?
+    - What's included in the tuition fees?
+    - Are there any additional fees beyond tuition?
+    - Can you provide the fee details for VIT-Bangalore?
+
+- intent: application_deadline
+  examples: |
+    - When is the application deadline?
+    - What's the last date to apply?
+    - Until when can I submit my application?
+    - Tell me about application timelines
+    - When do applications close?
+    - What are the important dates for admission?
+    - When should I apply by?
+    - Is there an early application deadline?
+    - What's the application schedule?
+    - Are there multiple application rounds?
+    - When does the admission process start?
+    - Tell me about the admission calendar
+    - When is the best time to apply?
+    - Are late applications accepted?
+    - What's the deadline for international students?
+    - Do deadlines vary by program?
+    - When is the admission form available?
+    - What's the cutoff date for applications?
+    - When should I start my application process?
+    - Tell me all admission dates
+
+- intent: location_information
+  examples: |
+    - Where is VIT-Bangalore located?
+    - What's the address of VIT-Bangalore?
+    - How do I reach VIT campus?
+    - Tell me about VIT's location
+    - Where exactly is the campus?
+    - Is VIT-Bangalore in the city center?
+    - How far is VIT from Bangalore airport?
+    - What's the campus address?
+    - How to get to VIT-Bangalore?
+    - Is public transport available to campus?
+    - What area is VIT-Bangalore in?
+    - Is VIT-Bangalore near the city?
+    - How far is VIT from Bangalore railway station?
+    - What's the nearest landmark to VIT?
+    - Is the campus in Bangalore city?
+    - Tell me about campus surroundings
+    - How accessible is the campus location?
+    - What's the pincode of VIT-Bangalore?
+    - Is the location convenient for students?
+    - How large is the campus area?
+
+- intent: eligibility_criteria
+  examples: |
+    - What are the eligibility criteria?
+    - What qualifications do I need?
+    - Am I eligible to apply?
+    - What are the admission requirements?
+    - What's the minimum percentage required?
+    - Do I need work experience to apply?
+    - What academic background is required?
+    - Tell me about eligibility requirements
+    - What grades do I need for admission?
+    - Is there an entrance exam?
+    - Do I need specific subjects in my background?
+    - What are the selection criteria?
+    - Do you consider extracurricular activities?
+    - Is there an age limit for applicants?
+    - What's the minimum qualification needed?
+    - Are there different criteria for international students?
+    - Do you require English proficiency tests?
+    - What documents do I need to prove eligibility?
+    - Can I apply with a diploma?
+    - What's the minimum CGPA required?
+
+- intent: hostel_accommodation
+  examples: |
+    - Tell me about hostel facilities
+    - Is campus accommodation available?
+    - What are the hostel options?
+    - Are hostels compulsory?
+    - How much do hostels cost?
+    - What are the room types in hostels?
+    - Are meals included in hostel fees?
+    - Tell me about accommodation facilities
+    - Is the hostel on campus?
+    - Are there separate hostels for boys and girls?
+    - What amenities are available in hostels?
+    - Is WiFi available in hostels?
+    - What's the hostel application process?
+    - Are hostels air-conditioned?
+    - What about laundry facilities in hostels?
+    - How many students share a room?
+    - Are there single rooms available?
+    - What's the hostel security like?
+    - Are hostels available for all students?
+    - What's included in hostel fees?
+
+- intent: placement_statistics
+  examples: |
+    - What are the placement statistics?
+    - Tell me about job placements
+    - What companies recruit from VIT?
+    - What's the placement rate?
+    - What's the highest package offered?
+    - What's the average salary for graduates?
+    - How good are VIT placements?
+    - Which companies visit for campus recruitment?
+    - Tell me about career opportunities
+    - What sectors do graduates work in?
+    - What's the placement cell like?
+    - Do all students get placed?
+    - What's the placement process?
+    - Are there placement preparations?
+    - What's the placement track record?
+    - How many students get placed annually?
+    - What's the lowest package offered?
+    - Do international companies recruit?
+    - Are internships converted to jobs?
+    - What placement support is provided?
+
+- synonym: fees
+  examples: |
+    - tuition
+    - cost
+    - charges
+    - fee
+    - pricing
+    - expenses
+    - payment
+
+- synonym: programs
+  examples: |
+    - courses
+    - degrees
+    - majors
+    - specializations
+    - branches
+    - subjects
+    - disciplines
+
+- synonym: accommodation
+  examples: |
+    - hostel
+    - dorm
+    - dormitory
+    - residence
+    - housing
+    - lodging
+    - staying
+    
+- regex: tuition_pattern
+  examples: |
+    - \d+(\.\d+)?\s?(k|lakh|lakhs|L|cr|crore|crores|C)
+    - [Hh]ow much ([Dd]oes|[Ii]s) ([Ii]t|the|study|course|program|programme)
+    
+- regex: program_pattern
+  examples: |
+    - ([Ww]hat|[Ww]hich) (program|programmes|branch|course|degree|major)
+    - ([Ll]ist|[Tt]ell|[Ss]how) (programs|courses|branches|degrees|majors)
+
+- lookup: program_types
+  examples: |
+    - Computer Science
+    - Data Science
+    - Information Technology
+    - Electrical Engineering
+    - Electronics
+    - Mechanical Engineering
+    - Civil Engineering
+    - Business Analytics
+    - Management
+    - Artificial Intelligence
+    - Machine Learning
+    - Cybersecurity
+    - Big Data
+    - B.Tech
+    - M.Tech
+    - BBA
+    - MBA
+    - MSc
+    - BTech
+    - MTech
+
+- lookup: countries
+  examples: |
+    - USA
+    - US
+    - United States
+    - America
+    - Canada
+    - UK
+    - United Kingdom
+    - England
+    - Australia
+    - Germany
+    - France
+    - Singapore
+    - 
+  
+- intent: faq/dress_code
+  examples: |
+    - Is there a dress code at VIT?
+    - Do I need to wear uniform?
+    - What should I wear to classes?
+    - Is formal dress required?
+    - Tell me about the dress code
+
+- intent: faq/wifi_availability
+  examples: |
+    - Is there WiFi on campus?
+    - How good is the internet connection?
+    - Is internet available in hostels?
+    - Do you provide internet access?
+    - What's the WiFi speed?
+
+- intent: faq/food_options
+  examples: |
+    - What food options are available?
+    - Is there a cafeteria?
+    - Do you serve non-veg food?
+    - Are there restaurants on campus?
+    - What about the mess food?
